@@ -7,14 +7,14 @@ import { ObserveVisibilityDirective } from './visibility';
   template: `<section class="hero" id="top">
       <div class="hero-inner">
         <div>
-          <div class="eyebrow">Inteligencia artificial legal para Panamá y Centroamérica</div>
+          <div class="eyebrow">Inteligencia artificial legal personalizada localmente</div>
           <h1>
             Construida dentro de los documentos que su firma ya usa, <em>no alrededor de ellos.</em>
           </h1>
           <p class="lede">
             Ciceron redacta, busca y responde desde dentro de Word y Outlook, con base en los
-            propios expedientes de su firma, alojada en los términos que usted defina y con un costo
-            que nunca la sorprende a fin de mes.
+            propios expedientes de su firma y/o legislación local y actualizada, en los términos que
+            usted defina y con un costo que nunca la sorprende a fin de mes.
           </p>
           <div class="hero-ctas">
             <a href="#pilot" class="btn btn-accent">Solicitar la lista del piloto</a>
