@@ -210,10 +210,12 @@ import { ObserveVisibilityDirective } from './visibility';
       <div class="wrap">
         <div class="section-head">
           <div class="eyebrow">La plataforma</div>
-          <h2>Cinco herramientas, un sistema con fundamento verificable</h2>
+          <h2>Cinco herramientas. Un solo sistema con respaldo verificable</h2>
           <p>
-            Cada respuesta se obtiene primero de los propios documentos y registros de la firma; el
-            modelo redacta y resume sobre esa base verificada, y la cita.
+            Cada respuesta parte de los documentos, expedientes y registros propios de su firma. La
+            inteligencia artificial analiza, redacta y resume sobre una base documental validable,
+            identificando y citando la fuente correspondiente para que el abogado pueda revisar,
+            confirmar y decidir con confianza.
           </p>
         </div>
         <div class="tool-grid">
@@ -234,9 +236,10 @@ import { ObserveVisibilityDirective } from './visibility';
             <div class="tag">Complemento de Word</div>
             <h3>Redacción Inteligente</h3>
             <p>
-              Sugerencias de cláusulas y primeros borradores redactados en el estilo propio de la
-              firma, basados en sus mejores trabajos anteriores y no en un modelo genérico de
-              "derecho contractual".
+              Elabore primeros borradores, propuestas de cláusulas y documentos jurídicos utilizando
+              el estilo, precedentes y mejores prácticas propias de su firma, apoydo en documentos
+              previamente aprobados, contratos, escritos y modelos internos para producir contenido
+              coherente con la práctica jurídica de su equipo
             </p>
           </div>
           <div
@@ -256,9 +259,10 @@ import { ObserveVisibilityDirective } from './visibility';
             <div class="tag">Búsqueda</div>
             <h3>Búsqueda Semántica Interna</h3>
             <p>
-              Encuentre el expediente, la cláusula o el precedente en todo el archivo de la firma
-              por significado, no solo por palabra clave, con el documento fuente citado en cada
-              caso.
+              Encuentre rápidamente un expediente, una cláusula, un precedente o un documento
+              relevante dentro de los archivos de la firma, comprendiendo el significado, el
+              contexto y la intención de la consulta. Cada resultado incorpora la referencia al
+              documento fuente para facilitar su verificación.
             </p>
           </div>
           <div
@@ -276,10 +280,13 @@ import { ObserveVisibilityDirective } from './visibility';
               />
             </svg>
             <div class="tag">Espacio de trabajo</div>
-            <h3>Espacio de Chat Web</h3>
+            <h3>Chat jurídico en la web</h3>
             <p>
-              Un espacio abierto para preguntas de investigación y redacción que no parten de un
-              documento específico, con la misma regla de citación como base.
+              Un espacio centralizado para consultas de investigación, análisis y redacción que no
+              necesariamente parten de un documento específico. Formule preguntas, compare
+              criterios, solicite resúmenes o prepare borradores, siempre con una regla fundamental:
+              las respuestas deben apoyarse en fuentes identificables y citadas cuando exista
+              documentación interna relevante.
             </p>
           </div>
           <div
@@ -299,9 +306,11 @@ import { ObserveVisibilityDirective } from './visibility';
             <div class="tag">Complemento de Outlook</div>
             <h3>Asistente de Correo</h3>
             <p>
-              Redacta respuestas y resume hilos de correo para revisión; todo mensaje se envía
-              únicamente por una persona, con esa verificación visible en la interfaz y nunca dada
-              por hecho.
+              Redacte respuestas, prepare mensajes de seguimiento y resuma hilos extensos de correo
+              electrónico para revisión del abogado responsable. La plataforma no envía
+              comunicaciones de forma autónoma. Todo correo debe ser revisado, aprobado y enviado
+              por una persona autorizada. Esta validación permanece visible dentro de la interfaz;
+              nunca se presume.
             </p>
           </div>
           <div
@@ -353,29 +362,50 @@ import { ObserveVisibilityDirective } from './visibility';
             <h2
               style="font-size:clamp(26px,3vw,34px); font-weight:600; color:var(--dark-teal); margin:14px 0 0; line-height:1.18;"
             >
-              Las plataformas globales se detienen en su frontera. Ciceron empieza ahí.
+              Las plataformas globales se detienen en la frontera. Ciceron comienza allí.
             </h2>
             <p
               style="font-size:15.5px; color:rgba(19,25,27,0.66); line-height:1.6; margin-top:16px;"
             >
-              Las plataformas internacionales de IA legal están construidas para mercados de derecho
-              común y revisión genérica de documentos. No conocen DIGERPI, el Registro Público, ni
-              cómo se tramitan realmente los expedientes en los tribunales de Panamá. Ciceron se
-              construye desde el primer día con abogados panameños en ejercicio, precisamente para
-              que sí los conozca.
+              Las plataformas internacionales de inteligencia artificial jurídica suelen diseñarse
+              para sistemas de common law, grandes mercados angloparlantes y tareas genéricas de
+              revisión documental. Por ello, no siempre comprenden la realidad operativa del
+              ejercicio legal en Panamá: sus registros, instituciones, trámites, lenguaje jurídico y
+              prácticas profesionales.
+            </p>
+            <p
+              style="font-size:15.5px; color:rgba(19,25,27,0.66); line-height:1.6; margin-top:16px;"
+            >
+              Ciceron se desarrolla desde el primer día junto con abogados panameños en ejercicio,
+              para responder a la manera en que realmente trabajan las firmas locales.
+            </p>
+            <p
+              style="font-size:15.5px; color:rgba(19,25,27,0.66); line-height:1.6; margin-top:16px;"
+            >
+              No es una plataforma extranjera traducida al español. Es una solución construida para
+              integrar la investigación, la redacción, la consulta documental y la gestión diaria de
+              la práctica jurídica panameña.
             </p>
             <ul class="moat-list">
               <li>
-                <span class="dot"></span> Consultas directas a los propios registros de Panamá, no
-                un rodeo pensado para un sistema extranjero.
+                <span class="dot"></span> Consultas directas a registros e información relevante de
+                Panamá, sin depender de procesos diseñados para sistemas jurídicos extranjeros.
               </li>
               <li>
-                <span class="dot"></span> Estado de expedientes judiciales electrónicos integrado en
-                el mismo espacio donde los abogados ya redactan.
+                <span class="dot"></span> Consulta del estado de expedientes judiciales electrónicos
+                desde el mismo entorno en el que el abogado investiga, redacta y revisa documentos.
               </li>
               <li>
-                <span class="dot"></span> Pensado primero en español, con registro jurídico formal,
-                no una capa de traducción añadida a un modelo entrenado en inglés.
+                <span class="dot"></span> Redacción diseñada primero en español, con lenguaje
+                jurídico formal y adaptable al estilo de cada firma.
+              </li>
+              <li>
+                <span class="dot"></span> Búsqueda y análisis basados en los propios documentos,
+                precedentes, contratos y expedientes de la firma.
+              </li>
+              <li>
+                <span class="dot"></span> Respuestas respaldadas con referencias claras a los
+                documentos fuente, para facilitar la revisión y validación profesional.
               </li>
             </ul>
           </div>
@@ -406,6 +436,11 @@ import { ObserveVisibilityDirective } from './visibility';
             <div class="moat-row">
               <span>Facturación y contabilidad</span><span class="reg">Conector</span>
             </div>
+            <p style="font-size: 12px; opacity: 50%; font-style: italic">
+              Las integraciones estarán sujetas a disponibilidad técnica, permisos de acceso,
+              autorización de las instituciones correspondientes y requisitos de seguridad,
+              confidencialidad y cumplimiento aplicables.
+            </p>
           </div>
         </div>
       </div>
@@ -415,24 +450,41 @@ import { ObserveVisibilityDirective } from './visibility';
       <div class="wrap">
         <div class="pilot-card">
           <div>
-            <div class="eyebrow" style="color:var(--sage-pale);">Comience</div>
-            <h2>Compruébelo primero con sus propios expedientes.</h2>
+            <div class="eyebrow" style="color:var(--sage-pale);">
+              Comience con sus propios expedientes
+            </div>
+            <h2>Compruébelo primero con documentos reales de su firma.</h2>
             <p>
-              El piloto se ejecuta sobre una sola área de práctica y un lote real de documentos
-              propios de su firma: solo búsqueda y redacción, sin un proyecto largo de integración
-              antes de que usted vea que funciona.
+              El piloto se ejecuta sobre una única área de práctica y un conjunto controlado de
+              documentos reales de su firma. El objetivo es que pueda comprobar resultados en las
+              dos capacidades centrales de la plataforma (Búsqueda interna y Redacción Asistida)
+            </p>
+            <br />
+            <p>
+              No requiere iniciar con un proyecto largo de integración antes de ver valor. Primero
+              se configura un entorno controlado, se seleccionan los documentos autorizados y se
+              valida el desempeño con su propio trabajo jurídico.
             </p>
           </div>
           <div class="pilot-actions">
+            <div class="eyebrow">Próximos pasos</div>
             <a href="#" class="btn btn-accent" style="justify-content:center;"
               >Solicitar la lista del piloto</a
             >
+            <p style="font-size: 12px; style: italic">
+              Conozca los requisitos de documentación, seguridad, alcance, tiempos y criterios de
+              evaluación.
+            </p>
             <a
               href="#"
               class="btn btn-ghost"
               style="justify-content:center; border-color:rgba(255,255,255,0.28); color:#fff;"
               >Hablemos primero</a
             >
+            <p style="font-size: 12px; style: italic">
+              Coordine una conversación inicial para definir el área de práctica, el tipo de
+              documentos y los objetivos que desea validar con Ciceron.
+            </p>
           </div>
         </div>
       </div>
