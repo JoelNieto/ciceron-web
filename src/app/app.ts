@@ -18,8 +18,7 @@ import { RouterOutlet } from '@angular/router';
           [class.open]="menuOpen()"
         >
           <a href="/#platform" (click)="closeMenu()">Plataforma</a>
-          <a href="/#tools" (click)="closeMenu()">Herramientas</a>
-          <a href="/#use-cases" (click)="closeMenu()">Casos de uso</a>
+          <a href="/#use-cases" (click)="closeMenu()">Casos</a>
           <a href="/#panama" (click)="closeMenu()">Panamá</a>
           <a href="/seguridad" (click)="closeMenu()">Seguridad</a>
           <a class="mobile-only" href="/#pilot" (click)="closeMenu()">Evaluar un piloto</a>
@@ -49,9 +48,9 @@ import { RouterOutlet } from '@angular/router';
           <div class="footer-cols">
             <div class="footer-col">
               <h4>Plataforma</h4>
-              <a href="/#redaccion">Redacción Inteligente</a>
-              <a href="/#busqueda">Búsqueda Interna</a>
-              <a href="/#correo">Asistente de Correo</a>
+              <a href="/#redaccion">Redacción inteligente</a>
+              <a href="/#busqueda">Búsqueda semántica</a>
+              <a href="/#correo">Asistente de correo</a>
               <a href="/#use-cases">Casos de uso</a>
             </div>
             <div class="footer-col">
