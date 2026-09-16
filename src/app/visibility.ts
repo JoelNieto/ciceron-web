@@ -32,11 +32,8 @@ export class ObserveVisibilityDirective {
       this.observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Bring execution back into Angular zone to update UI/state safely
-
             this.ngZone.run(() => this.visible.emit(true));
-          } else {
-            this.ngZone.run(() => this.visible.emit(false));
+            this.observer?.unobserve(entry.target);
           }
         });
       }, options);
