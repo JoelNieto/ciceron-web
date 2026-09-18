@@ -8,14 +8,13 @@ import { ObserveVisibilityDirective } from './visibility';
   template: `<section class="hero" id="top">
       <div class="hero-inner">
         <div>
-          <div class="eyebrow">Núcleo de IA jurídica para firmas panameñas</div>
-          <h1>Un núcleo de IA en su entorno, integrado a Word y a los sistemas que ya usa.</h1>
+          <div class="eyebrow">Implementación de IA privada para firmas panameñas</div>
+          <h1>Implementamos un <em>entorno de IA privado</em> para su firma.</h1>
           <p class="lede">
-            Ciceron implementa el núcleo —local o en la nube, según acuerde su firma— y trabaja con
-            su equipo para conectarlo a las herramientas existentes. Word, Outlook, la búsqueda y el
-            chat cubren el día a día. Integrar el núcleo abre la posibilidad de generar reportes,
-            dashboards e informes desde las plataformas que la firma ya usa; cada conexión entra por
-            alcance escrito.
+            Ciceron instala y pone en marcha un entorno de inteligencia artificial que pertenece a
+            su firma —en su propia infraestructura o en una nube privada— y lo integra con los
+            sistemas que ya usa. Word, Outlook, la búsqueda y el chat cubren el día a día; cada
+            conexión adicional entra por alcance escrito.
           </p>
           <div class="hero-ctas">
             <a href="#pilot" class="btn btn-accent">Evaluar un piloto</a>
@@ -52,8 +51,8 @@ import { ObserveVisibilityDirective } from './visibility';
       <div class="wrap">
         <ul>
           <li>
-            <strong>Núcleo en su entorno</strong>
-            <span>Local o nube, en la infraestructura que la firma acuerda.</span>
+            <strong>Entorno privado</strong>
+            <span>En la infraestructura de la firma o en una nube privada.</span>
           </li>
           <li>
             <strong>Integración conjunta</strong>
@@ -61,7 +60,7 @@ import { ObserveVisibilityDirective } from './visibility';
           </li>
           <li>
             <strong>Acceso cotidiano</strong>
-            <span>Word, Outlook, búsqueda y chat sobre el mismo núcleo.</span>
+            <span>Word, Outlook, búsqueda y chat sobre ese mismo entorno.</span>
           </li>
           <li>
             <strong>Control profesional</strong>
@@ -74,17 +73,17 @@ import { ObserveVisibilityDirective } from './visibility';
     <section class="pillars" id="platform">
       <div class="wrap">
         <div class="section-head">
-          <h2>Una implementación: el núcleo, nuestras herramientas y las suyas</h2>
+          <h2>Qué se implementa: su entorno privado, nuestras herramientas y las suyas</h2>
           <p>
-            Ciceron no es solo un complemento de Word. Es un núcleo de IA que se despliega con su
-            firma y se articula con el resto del entorno de trabajo.
+            Ciceron no es solo un complemento de Word. Lo que se implementa es un entorno de IA
+            privado de la firma, y sobre él se articula el resto del trabajo.
           </p>
         </div>
         <ol class="arch-layers" aria-label="Capas de una implementación de Ciceron">
           <li>
             <span class="arch-step" aria-hidden="true">01</span>
-            <strong>Núcleo de IA</strong>
-            <span>Local o nube, bajo el alcance contratado.</span>
+            <strong>Entorno de IA privado</strong>
+            <span>En su infraestructura o en una nube privada, bajo el alcance contratado.</span>
           </li>
           <li>
             <span class="arch-step" aria-hidden="true">02</span>
@@ -100,7 +99,7 @@ import { ObserveVisibilityDirective } from './visibility';
         <div class="integration-promise">
           <p>
             La integración no obliga a abandonar las herramientas de la firma. Cuando el alcance lo
-            incluye, el núcleo alimenta reportes, dashboards e informes en las plataformas que el
+            incluye, el entorno alimenta reportes, dashboards e informes en las plataformas que el
             equipo ya utiliza —gestión, documentos u otras—, en lugar de un panel ajeno que deban
             aprender aparte.
           </p>
@@ -122,10 +121,10 @@ import { ObserveVisibilityDirective } from './visibility';
               <polygon points="17,2 17,32" stroke="#2ECC99" stroke-width="1" opacity="0.5" />
               <polygon points="4,10 30,10" stroke="#2ECC99" stroke-width="1" opacity="0.5" />
             </svg>
-            <h3>El núcleo corre donde la firma decida</h3>
+            <h3>El entorno corre donde la firma decida</h3>
             <p>
-              Infraestructura local o nube. No es un chatbot público: el modelo trabaja en el
-              entorno que su firma contrata.
+              Servidores propios o nube privada. No es un chatbot público: el modelo trabaja dentro
+              del perímetro que su firma contrata.
             </p>
           </div>
           <div
@@ -163,9 +162,9 @@ import { ObserveVisibilityDirective } from './visibility';
                 stroke-linecap="round"
               />
             </svg>
-            <h3>Integramos el núcleo con lo que ya opera</h3>
+            <h3>Lo integramos con lo que ya opera</h3>
             <p>
-              Trabajamos con su equipo para conectar el núcleo a los sistemas existentes. Eso abre
+              Trabajamos con su equipo para conectar el entorno a los sistemas existentes. Eso abre
               la posibilidad de generar reportes, dashboards e informes desde esas mismas
               plataformas, con los permisos acordados por escrito.
             </p>
@@ -186,10 +185,10 @@ import { ObserveVisibilityDirective } from './visibility';
               />
               <path d="M19 9 L23 13" stroke="#2ECC99" stroke-width="1.6" />
             </svg>
-            <h3>Herramientas Ciceron sobre ese núcleo</h3>
+            <h3>Herramientas Ciceron sobre ese entorno</h3>
             <p>
               Las herramientas de Ciceron no son un producto aparte: consultan y redactan contra el
-              mismo núcleo que se integró al resto de su entorno.
+              mismo entorno privado que se integró a los sistemas de la firma.
             </p>
           </div>
           <div
@@ -210,8 +209,8 @@ import { ObserveVisibilityDirective } from './visibility';
             </svg>
             <h3>Alcance, custodia y precio por escrito</h3>
             <p>
-              Antes del piloto se fija dónde corre el núcleo, qué se conecta y cuánto cuesta. No hay
-              factura abierta por token.
+              Antes del piloto se fija dónde corre el entorno, qué se conecta y cuánto cuesta. No
+              hay factura abierta por token.
             </p>
           </div>
         </div>
@@ -221,7 +220,7 @@ import { ObserveVisibilityDirective } from './visibility';
     <section class="tools" id="tools">
       <div class="wrap">
         <div class="section-head">
-          <h2>Las herramientas que Ciceron aporta sobre el núcleo</h2>
+          <h2>Las herramientas que Ciceron aporta sobre ese entorno</h2>
           <p>
             Estas cuatro cubren el trabajo diario. La integración con el resto de sus sistemas —
             incluida la generación de reportes, dashboards e informes en las plataformas de la firma
@@ -338,9 +337,9 @@ import { ObserveVisibilityDirective } from './visibility';
           </div>
         </div>
         <p class="tools-footnote">
-          La conexión a otros sistemas de la firma —incluidos reportes, dashboards e informes en
-          sus plataformas actuales— se evalúa con su equipo. Las prioridades se contrastan con
-          abogados panameños en ejercicio.
+          La conexión a otros sistemas de la firma —incluidos reportes, dashboards e informes en sus
+          plataformas actuales— se evalúa con su equipo. Las prioridades se contrastan con abogados
+          panameños en ejercicio.
         </p>
       </div>
     </section>
@@ -406,9 +405,9 @@ import { ObserveVisibilityDirective } from './visibility';
             <h2 class="moat-title">Una IA jurídica diseñada desde Panamá y para Panamá.</h2>
             <p class="moat-copy">
               Ciceron se construye con abogados panameños en ejercicio, en español jurídico y sobre
-              los documentos de cada firma. El núcleo se integra a ese entorno; no sustituye de
-              entrada los sistemas que la firma ya opera, y puede alimentar reportes, dashboards e
-              informes en esas mismas plataformas.
+              los documentos de cada firma. El entorno privado se integra a lo que ya existe; no
+              sustituye de entrada los sistemas que la firma opera, y puede alimentar reportes,
+              dashboards e informes en esas mismas plataformas.
             </p>
             <ul class="moat-list">
               <li>
@@ -544,7 +543,7 @@ export default class Home {
     this.seo.updatePage({
       title: 'Ciceron | Inteligencia artificial jurídica para firmas en Panamá',
       description:
-        'Ciceron implementa un núcleo de IA jurídica en entorno local o nube, lo integra con las plataformas de su firma para reportes, dashboards e informes, y aporta Word, Outlook, búsqueda y chat.',
+        'Ciceron implementa un entorno de IA privado para su firma —en su propia infraestructura o en una nube privada—, lo integra con los sistemas que ya usa y aporta Word, Outlook, búsqueda y chat.',
       path: '/',
     });
   }
