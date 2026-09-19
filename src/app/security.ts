@@ -1,8 +1,10 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { SeoService } from './seo';
 
 @Component({
   selector: 'app-security',
+  imports: [NgOptimizedImage],
   template: `<section class="trust-hero">
       <div class="wrap trust-hero-inner">
         <div class="eyebrow">Seguridad y confidencialidad</div>
@@ -96,24 +98,42 @@ import { SeoService } from './seo';
     </section>
 
     <section class="trust-section" aria-labelledby="professional-title">
-      <div class="wrap trust-columns">
+      <div class="wrap trust-product">
         <div>
           <div class="eyebrow">Control profesional</div>
           <h2 id="professional-title">Ciceron asiste; el abogado revisa y decide.</h2>
+          <div class="trust-prose">
+            <p>
+              Los borradores, resúmenes y referencias producidos por inteligencia artificial
+              requieren revisión profesional. Ciceron no sustituye el análisis jurídico, no
+              garantiza resultados y no debe enviar comunicaciones ni ejecutar decisiones de forma
+              autónoma.
+            </p>
+            <p>
+              Cuando el expediente incluye datos personales u otra información sensible, el entorno
+              puede orientar sobre el marco de la consulta sin reproducir cédulas, cuentas ni
+              montos. Para firmas panameñas, la evaluación también debe considerar el secreto
+              profesional y las obligaciones aplicables al tratamiento de datos personales, incluida
+              la Ley 81 de 2019 y su reglamentación. La aplicación concreta de esas normas
+              corresponde a cada firma y a sus asesores.
+            </p>
+          </div>
         </div>
-        <div class="trust-prose">
-          <p>
-            Los borradores, resúmenes y referencias producidos por inteligencia artificial requieren
-            revisión profesional. Ciceron no sustituye el análisis jurídico, no garantiza resultados
-            y no debe enviar comunicaciones ni ejecutar decisiones de forma autónoma.
-          </p>
-          <p>
-            Para firmas panameñas, la evaluación también debe considerar el secreto profesional y
-            las obligaciones aplicables al tratamiento de datos personales, incluida la Ley 81 de
-            2019 y su reglamentación. La aplicación concreta de esas normas corresponde a cada firma
-            y a sus asesores.
-          </p>
-        </div>
+        <figure class="product-shot">
+          <div class="product-frame">
+            <img
+              ngSrc="/product/datos-sensibles.png"
+              width="1024"
+              height="640"
+              alt="Aviso de Ciceron indicando que no reproducirá cédulas, cuentas ni montos individuales porque el expediente incluye datos personales."
+              sizes="(min-width: 981px) 48vw, 92vw"
+            />
+          </div>
+          <figcaption>
+            El entorno advierte cuando hay datos personales y no reproduce cédulas, cuentas ni
+            montos. Entorno de demostración.
+          </figcaption>
+        </figure>
       </div>
     </section>
 

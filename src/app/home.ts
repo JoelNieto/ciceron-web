@@ -1,13 +1,14 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { SeoService } from './seo';
 import { ObserveVisibilityDirective } from './visibility';
 
 @Component({
   selector: 'app-home',
-  imports: [ObserveVisibilityDirective],
+  imports: [NgOptimizedImage, ObserveVisibilityDirective],
   template: `<section class="hero" id="top">
       <div class="hero-inner">
-        <div>
+        <div class="hero-copy">
           <div class="eyebrow">Implementación de IA privada para firmas panameñas</div>
           <h1>Implementamos un <em>entorno de IA privado</em> para su firma.</h1>
           <p class="lede">
@@ -23,26 +24,18 @@ import { ObserveVisibilityDirective } from './visibility';
             >
           </div>
         </div>
-        <figure class="hero-specimen">
-          <figcaption>Ejemplo ilustrativo. No es una captura del producto.</figcaption>
-          <div class="specimen-sheet">
-            <p class="specimen-kicker">Escrito de contestación</p>
-            <p class="specimen-body">
-              Esta representación sostiene que el término se computa desde el traslado efectivo,
-              según el criterio recogido en los memorandos de práctica de la firma<sup>1</sup>.
-            </p>
-            <p class="specimen-body">
-              En consecuencia, se solicita se tenga por contestada la demanda en tiempo oportuno y
-              se incorporen los antecedentes ya obrantes en el expediente.
-            </p>
-            <aside class="specimen-source">
-              <span aria-hidden="true">1</span>
-              <div>
-                <strong>Memorando de práctica · litigios civiles</strong>
-                <em>Corpus autorizado por la firma</em>
-              </div>
-            </aside>
+        <figure class="product-shot product-shot-hero">
+          <div class="product-frame">
+            <img
+              ngSrc="/product/chat-juridico.png"
+              width="1024"
+              height="640"
+              alt="Chat jurídico de Ciceron comparando una cláusula de indemnización con el Código de Trabajo, con los documentos de origen citados."
+              priority
+              sizes="(min-width: 981px) 90vw, 92vw"
+            />
           </div>
+          <figcaption>Consulta con fuentes citadas. Entorno de demostración.</figcaption>
         </figure>
       </div>
     </section>
@@ -336,6 +329,21 @@ import { ObserveVisibilityDirective } from './visibility';
             </p>
           </div>
         </div>
+        <figure class="product-shot product-shot-on-dark">
+          <div class="product-frame">
+            <img
+              ngSrc="/product/archivo-firma.png"
+              width="1024"
+              height="640"
+              alt="Archivo de la firma en Ciceron, con contratos, reglamentos y extractos legales indexados por expediente de derecho laboral."
+              sizes="(min-width: 981px) 90vw, 92vw"
+            />
+          </div>
+          <figcaption>
+            El archivo interno queda indexado por expediente y disponible para búsqueda y chat.
+            Entorno de demostración.
+          </figcaption>
+        </figure>
         <p class="tools-footnote">
           La conexión a otros sistemas de la firma —incluidos reportes, dashboards e informes en sus
           plataformas actuales— se evalúa con su equipo. Las prioridades se contrastan con abogados
